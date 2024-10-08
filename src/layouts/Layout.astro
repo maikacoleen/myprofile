@@ -13,11 +13,19 @@ const { title } = Astro.props;
 		<meta name="description" content="Astro description" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<!-- Manrope -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+		<!-- Lexend Deca -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">	
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
 	<body>
-		<div class="container mx-auto px-4">
+		<div class="min-h-screen">
 			<slot />
 		</div>
 	</body>
@@ -35,18 +43,25 @@ const { title } = Astro.props;
 		);
 	}
 	html {
-		font-family: system-ui, sans-serif;
 		background: #181C14;
 	}
-	code {
-		font-family:
-			Menlo,
-			Monaco,
-			Lucida Console,
-			Liberation Mono,
-			DejaVu Sans Mono,
-			Bitstream Vera Sans Mono,
-			Courier New,
-			monospace;
+
+	h1, h2 {
+		font-family: 'Lexend Deca', sans-serif;
+	}
+	body {
+		font-family: 'Manrope', sans-serif;
+	}
+	
+	@font-face {
+  		font-family: "Manrope";
+  		font-optical-sizing: auto;
+  		font-style: normal;
+	}
+
+	@font-face {
+		font-family: "Lexend Deca";
+  		font-optical-sizing: auto;
+  		font-style: normal;
 	}
 </style>

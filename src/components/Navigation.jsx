@@ -1,7 +1,7 @@
 const Navigation = () => {
     return (
         <nav>
-            <div className="flex justify-end py-2">
+            <div className="flex justify-end items-center relative py-2 mx-5">
                 <div>
                     <button className="rounded-lg px-4 py-3 m-1 text-yellowtext hover:bg-yellowtext/10 hover:underline hover:decoration-wavy hover:decoration-yellowtext hidden sm:block">ABOUT</button>
                 </div>
@@ -12,14 +12,18 @@ const Navigation = () => {
                     <button className="rounded-lg px-4 py-3 m-1 text-yellowtext hover:bg-yellowtext/10 hover:underline hover:decoration-wavy hover:decoration-yellowtext hidden sm:block">CONTACT</button>
                 </div>
                 <div>
+                    <a href="https://linkedin.com/in/maikacoleen">
                     <button className="rounded-lg px-4 py-3 m-1 bg-yellowtext/10 hover:bg-yellowtext/20">
                     <img src="/linkedin.svg" alt="LinkedIn" className="h-6 w-6 inline-block" />
                     </button>
+                    </a>
                 </div>
                 <div>
-                    <button className="rounded-lg px-4 py-3 m-1 bg-yellowtext/10 hover:bg-yellowtext/20">
-                    <img src="/github.svg" alt="GitHub" className="h-6 w-6 inline-block" />
-                    </button>
+                    <a href="https://github.com/maikacoleen">
+                        <button className="rounded-lg px-4 py-3 m-1 bg-yellowtext/10 hover:bg-yellowtext/20">
+                        <img src="/github.svg" alt="GitHub" className="h-6 w-6 inline-block" />
+                        </button>
+                    </a>
                 </div>
                 <div className="sm:hidden  hover:bg-yellowtext/20 rounded-lg px-4 py-3 m-1 flex items-center group">
                     <span className="relative tems-center">
