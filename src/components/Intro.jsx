@@ -17,8 +17,8 @@ const Intro = () => {
         };
     }, []);
     return (
-        <header>
-            <div className="max-w-full min-h-[calc(100vh-160px)] flex items-center relative">
+        <header className = "relative">
+            <div className="max-w-full min-h-screen flex items-center relative">
                 <div className="flex flex-col z-10 relative p-8 text-center w-full"  style={{
                         transform: `translate(${mousePosition.x/20}px, ${mousePosition.y/20}px)`
                     }}>
@@ -38,14 +38,18 @@ const Intro = () => {
                         className="w-auto h-3/5 opacity-75"
                     />
                 </div>
-               
-                
-            </div>
-            <a className="absolute bottom-4 left-1/2 transform -translate-x-1/2">
+
+                <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2">
+            <a href="#about">
                     <button className="animate-bounce hover:animate-none w-14 h-14 rounded-full bg-yellowtext flex justify-center items-center">
                         <img src="/down.svg" alt="down arrow" className="h-8 w-8" />
                     </button>
             </a>
+            </div>
+               
+                
+            </div>
+          
             
        
         </header>

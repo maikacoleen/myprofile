@@ -1,7 +1,7 @@
 const Navigation = () => {
     return (
         <nav>
-            <div className="flex justify-end items-center relative py-2 mx-5">
+            <div className="flex justify-end items-center fixed py-2 mx-5 z-10">
                 <div>
                     <button className="rounded-lg px-4 py-3 m-1 text-yellowtext hover:bg-yellowtext/10 hover:underline hover:decoration-wavy hover:decoration-yellowtext hidden sm:block">ABOUT</button>
                 </div>
