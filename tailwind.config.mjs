@@ -4,7 +4,11 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				yellowtext: "#FFFF00", // Corrected color value
+				yellowtext: "#FFFF00", 
+				blackblue: "#101827",
+				icongrey: "#BFC1C9",
+				iconblack: "#26282C",
+				cardcolor: "#1B1D28",
 			}
 		}
 	},
