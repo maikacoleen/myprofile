@@ -4,7 +4,7 @@ const project = [
         title: "Portfolio",
         describe: "This is my portfolio website. Showcasing my work in software development, data science, and design",
         img: "portfolio.png",
-        link:"https://yattazan.one/",
+        link:"https://maikacoleen.netlify.app/",
         tech: ["HTML", "CSS", "JavaScript", "Tailwind", "React", "Astro"],
     },
     {
