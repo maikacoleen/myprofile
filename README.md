@@ -7,7 +7,7 @@ This portfolio highlights my work as a web developer, featuring projects in fron
 
 ## Usage
 Visit the website at https://maikacoleen.netlify.app/
-![Picture of my portfolio](images/portfolio.png)
+![Picture of my portfolio](images/project/portfolio.png)
 
 ## Features
 - Responsive design
