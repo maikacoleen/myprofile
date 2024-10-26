@@ -20,7 +20,7 @@ const project = [
         title: "brownie.gg",
         describe: "IN DEVELOPMENT: An eSports platform to track events and support players financially",
         img: "brownie.png",
-        link: "https://neonewstoday.com/nnt/nnt-distributes-us-8000-in-grants-to-students-building-on-neo-n3/",
+        link: "https://brownie.gg/",
         tech: ["React", "Astro", "Tailwind", "JavaScript", "TypeScript", "MongoDB", "Payload CMS", "Docker"]
     },
     {
