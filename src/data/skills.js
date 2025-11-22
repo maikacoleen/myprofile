@@ -111,6 +111,14 @@ const skills = [
         type: 'etc',
         level: 1,
     },
+    {
+        id: 16,
+        name: 'PHP',
+        file: 'php.svg',
+        type: 'Language',
+        level: 2
+    },
+
 ]
 
 export default skills;
